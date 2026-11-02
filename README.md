@@ -1,4 +1,4 @@
-# 小梨 Ai 助手
+# 小梨 AI 助手
 
 一个简洁的个人灵感与任务管理 Web 应用。
 
@@ -9,7 +9,7 @@
 - 🏷️ **标签分类** - 用标签整理你的灵感
 - 📊 **进度追踪** - 可视化你的任务完成进度
 - 🌙 **深色模式** - 支持明暗主题切换
-- ☁️ **云端同步** - 数据保存在 Supabase 云端
+- 💾 **本地存储** - 数据保存在浏览器本地（IndexedDB）
 
 ## 技术栈
 
@@ -17,7 +17,7 @@
 - Vite
 - Tailwind CSS
 - Zustand（状态管理）
-- Supabase（后端数据库）
+- Dexie.js（IndexedDB 本地存储）
 - Cloudflare Pages（部署）
 
 ## 快速开始
@@ -61,7 +61,7 @@ src/
 ├── components/     # UI 组件
 ├── pages/          # 页面组件
 ├── stores/         # 状态管理
-├── supabase/       # 数据库配置
+├── db/             # 数据库配置
 └── App.tsx         # 主应用
 ```
 
